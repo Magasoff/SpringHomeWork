@@ -19,7 +19,7 @@ public class AppConfig {
     }
     @Bean (name = "driver1")
     public Driver getDriver1 () {
-        return  new Driver("Вова", getBusBean());
+        return  new Driver("Саша", getBusBean());
     }
     @Bean
     public Pickup getPickUpBean () {
